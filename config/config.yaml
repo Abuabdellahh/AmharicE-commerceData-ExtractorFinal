@@ -1,0 +1,41 @@
+telegram:
+  api_id: "YOUR_TELEGRAM_API_ID"
+  api_hash: "YOUR_TELEGRAM_API_HASH"
+  phone: "+YOUR_PHONE_NUMBER"
+  channels:
+    - "@shageronlinestore"
+    - "@ethio_market_place"
+    - "@addis_shopping"
+    - "@bole_electronics"
+    - "@merkato_online"
+
+model:
+  base_model: "xlm-roberta-base"
+  max_length: 512
+  batch_size: 8
+  epochs: 3
+  learning_rate: 2e-5
+
+ner:
+  entity_types:
+    - "PRODUCT"
+    - "PRICE"
+    - "LOC"
+  label2id:
+    O: 0
+    B-PRODUCT: 1
+    I-PRODUCT: 2
+    B-PRICE: 3
+    I-PRICE: 4
+    B-LOC: 5
+    I-LOC: 6
+
+vendor_analytics:
+  metrics:
+    avg_views_weight: 0.5
+    posting_frequency_weight: 0.3
+    price_point_weight: 0.2
+  thresholds:
+    min_views: 100
+    min_posts: 10
+    min_days: 30

@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# Data
+*.csv
+*.json
+*.txt
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# Model Checkpoints
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.coverage.*.c
+.coverage.*.json
+.coverage.xml
+.nox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
